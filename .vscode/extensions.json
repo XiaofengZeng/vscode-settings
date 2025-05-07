@@ -1,37 +1,65 @@
 {
   "recommendations": [
-    // my extensions, ofc :P
-    "antfu.browse-lite",
-    "antfu.iconify",
-    "antfu.slidev",
-    "antfu.unocss",
-    "antfu.vite",
-    "antfu.where-am-i",
-    "antfu.open-in-github-button",
-    "lokalise.i18n-ally",
-
     // themes & icons
+    "antfu.iconify",
     "antfu.icons-carbon",
     "antfu.theme-vitesse",
     "file-icons.file-icons",
-    "sainnhe.gruvbox-material",
 
     // life savers!
-    "dbaeumer.vscode-eslint",
-    "Vue.volar",
+    "antfu.smart-clicks",
+    "eamodio.gitlens",
     "GitHub.copilot",
-    "usernamehw.errorlens",
+    "kamikillerto.vscode-colorize",
+    "naumovs.color-highlight",
+
+    // programming languages
+    "aaron-bond.better-comments",
+    "bradlc.vscode-tailwindcss",
+    "christian-kohler.path-intellisense",
+    "formulahendry.auto-rename-tag",
+    "mrmlnc.vscode-scss",
+    "redhat.vscode-yaml",
+    "pranaygp.vscode-css-peek",
+    "Vue.volar",
+    "vunguyentuan.vscode-css-variables",
+
+    // Linters
+    "davidanson.vscode-markdownlint",
+    "dbaeumer.vscode-eslint",
+    "stylelint.vscode-stylelint",
+
+    // Formatters
+    "esbenp.prettier-vscode",
+    "sibiraj-s.vscode-scss-formatter",
+
+    // 3D Workers!
+    "cesium.gltf-vscode",
+    "dtoplak.vscode-glsllint",
+    "slevesque.shader",
+
+    // Info,Warning,Error,etc.
+    "antfu.pnpm-catalog-lens",
+    "gruntfuggly.todo-tree",
+    "mkxml.vscode-filesize",
+    "pflannery.vscode-versionlens",
     "streetsidesoftware.code-spell-checker",
+    "usernamehw.errorlens",
+    "wix.vscode-import-cost",
+
+    // configs
+    "antfu.file-nesting",
+    "EditorConfig.EditorConfig",
 
     // up to you
-    "eamodio.gitlens",
-    "EditorConfig.EditorConfig",
     "github.vscode-github-actions",
     "GitHub.vscode-pull-request-github",
+    "ipatalas.vscode-postfix-ts",
     "johnsoncodehk.vscode-tsconfig-helper",
+    "lokalise.i18n-ally",
     "mpontus.tab-cycle",
-    "naumovs.color-highlight",
+    "ritwickdey.liveserver",
     "WakaTime.vscode-wakatime",
-    "znck.grammarly"
+    "znck.grammarly",
   ]
 }
