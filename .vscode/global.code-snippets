@@ -7,6 +7,14 @@
     ],
     "description": "Import a module"
   },
+  "declare-on-demand": {
+    "scope": "javascript,typescript",
+    "prefix": "odc",
+    "body": [
+      "const { $2 } = $1;"
+    ],
+    "description": "Declare variables on-demand"
+  },
   "export-all": {
     "scope": "javascript,typescript",
     "prefix": "ex",
