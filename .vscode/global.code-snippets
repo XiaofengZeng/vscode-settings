@@ -3,13 +3,13 @@
     "scope": "javascript,typescript",
     "prefix": "im",
     "body": [
-      "import { $1 } from '$2';"
+      "import { $2 } from '$1';"
     ],
     "description": "Import a module"
   },
   "declare-on-demand": {
     "scope": "javascript,typescript",
-    "prefix": "odc",
+    "prefix": "od",
     "body": [
       "const { $2 } = $1;"
     ],
