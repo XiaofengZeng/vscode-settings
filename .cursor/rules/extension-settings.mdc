@@ -1,0 +1,70 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+# VS Code 扩展配置指南
+
+## 代码编辑增强
+
+### Emmet
+- 将建议显示为代码片段
+- 禁用 Tab 键触发展开
+
+### Error Lens
+- 显示警告和错误级别的诊断
+- 排除来源：
+  - cSpell
+  - Grammarly
+  - eslint
+
+### Colorize
+支持以下语言的颜色预览：
+- JavaScript
+- TypeScript
+- Vue
+- CSS
+- Less
+- SCSS
+
+## 代码质量工具
+
+### cSpell
+- 允许复合词
+- 支持语言：en, en-US, lorem, en-GB
+- 包含大量自定义词汇
+
+### Todo Tree
+- 启用高亮显示
+- 支持标签：
+  - TODO
+  - FIXME
+  - TEST
+  - DONE
+  - NOTE
+  - TAG
+  - [ ]
+  - [x]
+
+## 文件管理
+
+### File Nesting Updater
+- 自动更新：启用
+- 更新间隔：720 分钟
+- 自动更新时提示
+- 上游仓库：antfu/vscode-file-nesting-config
+
+### GitLens
+- 禁用启动板指示器
+
+## 开发工具
+
+### GLSL Lint
+- GLSL 验证器路径配置
+
+### Iconify
+- 启用注释
+- 启用内联预览
+
+### SVG 预览
+- 预览模式：SVG

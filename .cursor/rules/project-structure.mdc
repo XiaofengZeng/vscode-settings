@@ -1,0 +1,53 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+# VS Code 设置项目结构指南
+
+这是一个 VS Code 设置项目，主要包含以下关键文件：
+
+- [.vscode/settings.json](mdc:.vscode/settings.json) - VS Code 的主要设置文件
+- [.vscode/extensions.json](mdc:.vscode/extensions.json) - 推荐的 VS Code 扩展列表
+- [.vscode/global.code-snippets](mdc:.vscode/global.code-snippets) - 全局代码片段
+
+## 主要设置分类
+
+1. 视觉设置
+   - 编辑器字体：Dank Mono
+   - 主题：Vitesse Dark Soft
+   - 图标主题：file-icons-colourless
+   - 产品图标：icons-carbon
+
+2. 编辑器设置
+   - 字体大小：18px
+   - Tab 大小：2 空格
+   - 行号显示：interval
+   - 括号对指南：active
+
+3. 终端设置
+   - 默认终端：Command Prompt
+   - 字体大小：20px
+   - 字体粗细：300
+
+4. 文件设置
+   - 行尾：LF
+   - 自动删除尾随空格
+   - 文件末尾自动添加空行
+
+5. Git 设置
+   - 自动获取
+   - 智能提交
+   - 未跟踪更改显示在单独区域
+
+## 扩展配置
+
+项目包含多个扩展的配置，包括：
+- Emmet
+- Error Lens
+- Colorize
+- cSpell
+- File Nesting Updater
+- GitLens
+- Iconify
+- Todo Tree
